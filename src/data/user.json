@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "city": "Delhi",
+    "role": "Frontend Developer"
+  },
+  {
+    "id": 2,
+    "name": "Anita Patel",
+    "email": "anita.patel@gmail.com",
+    "city": "Ahmedabad",
+    "role": "UI Designer"
+  },
+  {
+    "id": 3,
+    "name": "Vikas Singh",
+    "email": "vikas.singh@gmail.com",
+    "city": "Mumbai",
+    "role": "Backend Developer"
+  },
+  {
+    "id": 4,
+    "name": "Priya Verma",
+    "email": "priya.verma@gmail.com",
+    "city": "Jaipur",
+    "role": "Full Stack Developer"
+  },
+  {
+    "id": 5,
+    "name": "Amit Kumar",
+    "email": "amit.kumar@gmail.com",
+    "city": "Bangalore",
+    "role": "DevOps Engineer"
+  },
+  {
+    "id": 6,
+    "name": "Sneha Reddy",
+    "email": "sneha.reddy@gmail.com",
+    "city": "Hyderabad",
+    "role": "Frontend Developer"
+  },
+  {
+    "id": 7,
+    "name": "Rohit Gupta",
+    "email": "rohit.gupta@gmail.com",
+    "city": "Pune",
+    "role": "Backend Developer"
+  },
+  {
+    "id": 8,
+    "name": "Karan Mehta",
+    "email": "karan.mehta@gmail.com",
+    "city": "Chandigarh",
+    "role": "UI/UX Designer"
+  }
+]
