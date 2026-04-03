@@ -1,4 +1,5 @@
 'use client'
+import Button from '@/components/Button';
 import React, { useState, useEffect, useRef } from 'react'
 
 const StartStopWatch = () => {
@@ -47,13 +48,14 @@ const StartStopWatch = () => {
             <div className='text-2xl font-bold mb-4'>StartStopWatch</div>
             <progress max={100} value={progress} className='w-[200px] h-4 mb-4' />
             <div className='flex gap-2'>
-                <button
+                {/* <button
                     onClick={handleStart}
                     disabled={isRunning || progress >= 100}
                     className='bg-green-500 text-white px-4 py-2 rounded disabled:opacity-50'
                 >
                     Start
-                </button>
+                </button> */}
+                <Button text="Start" onClick={handleStart} disabled={isRunning || progress >= 100} className='bg-green-500 text-white px-4 py-2 rounded disabled:opacity-50' />
                 <button
                     onClick={handleStop}
                     disabled={!isRunning}
